@@ -8,6 +8,6 @@ if __name__ == "__main__":
         base = float(sys.argv[1])
         exp = int(sys.argv[2])
     else:
-        base = float(input("Enter base: "))
-        exp = int(input("Enter exponent: "))
+        base = 5
+        exp = 2
     print(power(base, exp))
